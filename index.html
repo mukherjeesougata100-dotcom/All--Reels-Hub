@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+ <html lang="hi">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Reels Hub</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="splash">
+    <h1>🎬 All Reels Hub</h1>
+    <p>Loading...</p>
+</div>
+
+<div class="container">
+
+    <div class="search-box">
+        <input type="text"
+               id="searchInput"
+               placeholder="🔍 Search Apps..."
+               onkeyup="searchApps()">
+ <div id="settingsPanel" class="settings-panel">
+
+    <div class="settings-box">
+
+        <h2>⚙️ Settings</h2>
+
+        <button onclick="toggleTheme()">🌙 Dark / Light</button>
+
+        <button onclick="clearFavorites()">❤️ Clear Favorites</button>
+
+        <button onclick="shareApp()">📤 Share App</button>
+
+        <button onclick="aboutApp()">ℹ️ About</button>
+
+        <button onclick="closeSettings()">❌ Close</button>
+
+    </div>
+
+    </div>
+
+    <h1>🎬 All Reels Hub</h1>
+    <p>एक जगह से सभी Reels खोलें</p>
+
+    <div class="grid" id="appGrid"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+<div class="bottom-nav">
+    <div class="nav-item" onclick="goHome()">🏠<br>Home</div>
+    <div class="nav-item" onclick="goSearch()">🔍<br>Search</div>
+    <div class="nav-item" onclick="goFavorite()">❤️<br>Favorites</div>
+    <div class="nav-item" onclick="goSettings()">⚙️<br>Settings</div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
