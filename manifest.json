@@ -4,9 +4,9 @@
   "display": "standalone",
   "name": "All Reels Hub",
   "orientation": "any",
-  "scope": "/",
+  "scope": "/All--Reels-Hub/",
   "short_name": "ReelsHub",
-  "start_url": "/",
+  "start_url": "/All--Reels-Hub/",
   "theme_color": "#ffffff",
   "description": "Watch and discover the best reels and short videos.",
   "id": "com.allreelshub.app"
