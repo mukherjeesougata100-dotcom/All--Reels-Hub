@@ -9,5 +9,8 @@
   "start_url": "/All--Reels-Hub/",
   "theme_color": "#ffffff",
   "description": "Watch and discover the best reels and short videos.",
-  "id": "com.allreelshub.app"
+  "id": "com.allreelshub.app",
+  "categories": [
+    "video"
+  ]
 }
