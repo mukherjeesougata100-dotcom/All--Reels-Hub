@@ -1,0 +1,13 @@
+{
+  "background_color": "#000000",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "All Reels Hub",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "ReelsHub",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "description": "Watch and discover the best reels and short videos.",
+  "id": "com.allreelshub.app"
+}
