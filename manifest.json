@@ -3,7 +3,7 @@
   "dir": "ltr",
   "display": "standalone",
   "name": "All Reels Hub",
-  "orientation": "any",
+  "orientation": "portrait",
   "scope": "/All--Reels-Hub/",
   "short_name": "ReelsHub",
   "start_url": "/All--Reels-Hub/",
@@ -12,5 +12,6 @@
   "id": "com.allreelshub.app",
   "categories": [
     "video"
-  ]
+  ],
+  "lang": "en"
 }
